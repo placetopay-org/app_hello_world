@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
         setListeners()
     }
 
-
     override fun onStart() {
         super.onStart()
         Log.i("LifeCycle", "Activity:onStart")
